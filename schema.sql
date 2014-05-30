@@ -1,0 +1,6 @@
+CREATE TABLE articles (
+  id SERIAL PRIMARY KEY,
+  title VARCHAR(250) NOT NULL,
+  description VARCHAR(1000) NOT NULL,
+  url VARCHAR(250) NOT NULL
+  );
